@@ -16,9 +16,3 @@ Just do the following in a view class:
 >>> my_data = my_form.validate(webob_request)
 
 whereas my_form is supposed to be your deform form.
-
-3 Lines is a lot of code to write, so we created a shortcut::
-
->>> from collective.deform import validate_form
->>> my_data = validate_form(my_form, self.request)
-

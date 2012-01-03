@@ -1,0 +1,185 @@
+#content .deform legend {
+    padding: 0px 10px;
+}
+
+#content .deform label {
+    display: block;
+    z-index: 1;
+    zoom: 1;
+}
+
+#content .deform .deformSet-item > label{
+    display: inline-block;
+}
+
+#content .deform li.error{
+    background-color: transparent;
+    border: 1px solid rgb(255, 233, 222);
+}
+
+#content .deform fieldset {
+    border: 1px solid rgb(201, 208, 242);
+    padding: 2px 20px 20px;
+}
+
+#content .deform fieldset:hover {
+    border: 1px solid rgb(221, 228, 252);
+}
+
+#content .deform legend {
+    padding: 0px 10px;
+}
+
+#content .deform li>input,
+#content .deform li>textarea,
+#content .deform li>select,
+#content .deform li>button, 
+#content input.deform, 
+#content select.deform, 
+#content textarea.deform, 
+#content button.deform
+    {
+    border: 1px solid rgb(181, 188, 199);
+    background-color: rgb(247, 252, 255);
+    padding: 2px;
+    margin: 0px 0px 3px 0px;
+}
+
+#content .deform .error input,
+#content .deform .error textarea
+    {
+    border: 1px solid rgb(255, 96, 0);
+    background-color: rgb(255, 233, 222);
+    -webkit-transition-duration: 0.25s;
+    -moz-transition-duration: 0.25s;
+    -o-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+}
+
+#content .deform li>input,
+#content .deform li>textarea,
+#content .deform li>select
+    {
+    -webkit-transition-duration: 0.25s;
+    -moz-transition-duration: 0.25s;
+    -o-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+}
+
+#content .deform input:hover,
+#content .deform textarea:hover
+    {
+    border-color: rgb(118, 157, 192);
+    background-color: rgb(233, 244, 255);
+    -webkit-transition-duration: 0.25s;
+    -moz-transition-duration: 0.25s;
+    -o-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+}
+
+#content .deform input:focus,
+#content .deform textarea:focus
+    {
+    border-color: rgb(118, 157, 192);
+    background-color: rgb(255, 255, 255);
+    -webkit-transition-duration: 0.25s;
+    -moz-transition-duration: 0.25s;
+    -o-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+}
+
+#content .deform .error input,
+#content .deform .error textarea
+    {
+    border: 1px solid rgb(255, 96, 0);
+    background-color: rgb(255, 233, 222);
+    -webkit-transition-duration: 0.25s;
+    -moz-transition-duration: 0.25s;
+    -o-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+}
+
+#content .deform .error input:hover,
+#content .deform .error textarea:hover
+    {
+    background-color: rgb(255, 244, 233);
+    -webkit-transition-duration: 0.25s;
+    -moz-transition-duration: 0.25s;
+    -o-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+}
+
+#content .deform .error input:focus,
+#content .deform .error textarea:focus
+    {
+    background-color: rgb(255, 255, 255);
+    -webkit-transition-duration: 0.25s;
+    -moz-transition-duration: 0.25s;
+    -o-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+}
+
+#content .deform button {
+    padding: 2px 5px;
+}
+
+#content .deform p.error {
+    color: rgb(255, 33, 0);
+    background-color: rgb(255, 233, 222);
+    border: 1px solid rgb(255, 96, 0);
+    border-left: 5px solid rgb(255, 96, 0);
+    padding: 3px;
+}
+
+#content .deform .errorLi {
+    background-color: rgb(255, 77, 0);
+    color: rgb(255, 255, 255);
+    padding: 5px 10px 10px 20px;
+    -webkit-border-radius: 25px;
+    -o-border-radius: 25px;
+    border-radius: 25px;
+}
+
+#content .deform .errorMsgLbl{
+    background-color: rgb(255, 77, 0);
+}
+#content .deform .errorLi h3{
+    margin: 0px;
+    font-weight: bold;
+}
+
+#content .deform .errorLi p {
+    margin: 0px;
+}
+
+/* alter font sizes */
+#content .deform textarea {
+    font-size: 1em;
+}
+
+#content .deform p.error {
+    font-size: 0.66em !important;
+}
+
+#content .deform legend {
+    font-size: 0.75em; /* 12px */
+}
+
+#content .deform label {
+    font-size: 0.75em; /* 12px */
+}
+
+#content .deform li>input,
+#content .deform li>textarea,
+#content .deform li>select,
+#content .deform li>button, 
+#content deform.input, 
+#content deform.select, 
+#content deform.textarea, 
+#content deform.button
+    {
+    font-size: 0.75em; /* 12px */
+}
+#content .deform .small_desc {
+    font-size: 0.75em; /* 12px */
+}

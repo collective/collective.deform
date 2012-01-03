@@ -6,8 +6,10 @@ version = '0.1'
 setup(name='collective.deform',
       version=version,
       description="Little helper to make deform work with zope",
-      long_description=open("README.txt").read() + "\n" +
-                       open("CHANGES.txt").read(),
+      long_description="\n".join([
+          open("README.txt").read(),
+          open(os.path.join("docs", "index.rst")).read(),
+          open("CHANGES.txt").read()]),
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers
       classifiers=[
@@ -23,10 +25,17 @@ setup(name='collective.deform',
       include_package_data=True,
       zip_safe=False,
       install_requires=[
-          'setuptools',
-          # -*- Extra requirements: -*-
+      'collective.js.jqueryui',
+        'deform',
+        'five.grok',
+        'setuptools',
+        'WebOb',
+        'z3c.autoinclude',
       ],
       entry_points="""
-      # -*- Entry points: -*-
+      [z3c.autoinclude.plugin]
+      target = plone
       """,
+      setup_requires=["PasteScript"],
+      paster_plugins=["ZopeSkel"],
       )

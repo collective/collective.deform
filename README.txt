@@ -5,5 +5,13 @@ Deform is a form library that supports forms for complex structures. Unfortunate
 
 There is a simple fix for that, create a Webob Request object out of the raw request data. This library does exactly that.
 
-For people not reading docs, do not forget that deform also needs some css and js files available. You are most probably using Plone, where, at least until Plone 4, js and css resource are managed by portal_javascripts and portal_css
-The simplest thing to do is to just add all resources from deform there.
+API
+===
+
+Just do the following in a view class:
+
+>>> from collective.deform import request_converter
+>>> webob_request = convert_request(self.request)
+>>> my_data = my_form.validate(webob_request)
+
+whereas my_form is supposed to be your deform form.

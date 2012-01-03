@@ -1,6 +1,7 @@
 import webob
+import deform
 
-def convert_request(self, request):
+def convert_request(request):
     pointer = request.stdin.tell()
     try:
         request.stdin.seek(0)
@@ -8,6 +9,3 @@ def convert_request(self, request):
         return webob.Request.blank('/', POST=body, environ=request.environ)
     finally:
         request.stdin.seek(pointer)
-
-def validate_form(self, form, request):
-    return form.validate(convert_request(request))

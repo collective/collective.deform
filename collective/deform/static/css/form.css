@@ -1,0 +1,73 @@
+#content .deform .req{
+   color: red;
+}
+
+#content .deform label.desc{
+    display: block;
+    font-weight:bold;
+}
+
+#content .deform ul {
+    margin: 0;
+    padding: 0;
+}
+
+#content .deform li {
+    clear: left;
+    display: block;
+    margin: 6px 0px;
+    padding: 3px;
+}
+
+#content .deformClosebuttonActive {
+   border: 0;
+   cursor: pointer;
+   float: left;
+   /* width: 1em; */
+   /* height: 1em; */
+   /* margin: .5em; */
+}
+
+#content .deformClosebuttonActive:before {
+    content:"✖";
+    color:red;
+    margin-right: 2px;
+}
+
+#content a.deformSeqAdd:visited {
+   color: blue;
+}
+
+#content div.deformReplaces {
+    float: left;
+}
+
+#content .deformSet-item {
+    padding: 1px;
+}
+
+#content .deform ul.inline > li{
+    display:inline-block;
+}
+
+/* error handling */
+#content .deform .errorLi {
+    border:1px solid red;
+    text-align: center;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+}
+
+#content .deform li.error{
+    background-color: #FFDFDF;
+}
+
+#content .deform li.error label.desc, 
+#content .deform p.error, 
+#content deform h3.errorMsgLbl{
+    color: #DF0000;
+}
+
+#content .deform p.error{
+    font-size: 70%;
+}

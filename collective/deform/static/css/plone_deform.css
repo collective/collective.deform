@@ -1,0 +1,4 @@
+#content .deform {
+    /* cancel out the #content {font-size: 80%} from plone */
+    font-size: 125%;
+}
