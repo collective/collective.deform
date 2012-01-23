@@ -19,6 +19,11 @@
     padding: 3px;
 }
 
+#content .deform li.formTab {
+    display: inline;
+    margin-right: 0.25em;
+}
+
 #content .deformClosebuttonActive {
    border: 0;
    cursor: pointer;
