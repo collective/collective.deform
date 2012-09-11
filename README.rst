@@ -10,8 +10,8 @@ API
 
 Just do the following in a view class:
 
->>> from collective.deform import request_converter
->>> webob_request = convert_request(self.request)
->>> my_data = my_form.validate(webob_request)
+    >>> from collective.deform import convertRequest
+    >>> webob_request = convertRequest(self.request)
+    >>> my_data = my_form.validate(webob_request.POST.items())
 
-whereas my_form is supposed to be your deform form.
+where ``my_form`` is supposed to be your deform form.
