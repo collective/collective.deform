@@ -6,17 +6,23 @@
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup">
 
   <include package="z3c.autoinclude" file="meta.zcml" />
- 
+
   <includeDependencies package="." />
 
   <grok:grok package="." />
 
   <genericsetup:registerProfile
       name="default"
-      title="collective.deform"
+      title="collective.deform resources"
       directory="profiles/default"
       description="Installs the collective.deform package"
-      provides="Products.GenericSetup.interfaces.EXTENSION"
-      />
-  
+      provides="Products.GenericSetup.interfaces.EXTENSION" />
+
+  <genericsetup:registerProfile
+      name="demo"
+      title="collective.deform demo content"
+      directory="profiles/demo"
+      description="Installs the collective.deform package &amp; demo content"
+      provides="Products.GenericSetup.interfaces.EXTENSION" />
+
 </configure>
