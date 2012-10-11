@@ -211,7 +211,7 @@ class BaseAddView(DeformHelpers):
             return None
         for (key, value) in bindings.items():
             setattr(self, key, value)
-        super(BaseAddView, self).__call__()
+        return super(BaseAddView, self).__call__()
 
     def handleSubmit(self):
         form_data = convertRequest(self.request).POST.items()
