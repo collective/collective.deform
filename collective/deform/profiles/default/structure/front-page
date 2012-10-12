@@ -18,7 +18,5 @@ presentation: True
 tableContents: False
 Content-Type: text/html
 
-<p>We do not provide a view for editing content, instead we just your form data in annotations of the context.</p>
-<p><a class="internal-link" href="demoview">Have a look</a></p>
 <p>To learn how to use deform, look at the <a class="external-link" href="http://docs.pylonsproject.org/projects/deform/dev/">manual</a>.</p>
 <p>To see what is possible, look at the <a class="external-link" href="http://deformdemo.repoze.org/">demo</a>.</p>
