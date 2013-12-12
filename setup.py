@@ -7,7 +7,7 @@ setup(name='collective.deform',
       version=version,
       description="Little helper to make deform work with zope",
       long_description="\n".join([
-          open("README.txt").read(),
+          open("README.rst").read(),
           open(os.path.join("docs", "index.rst")).read(),
           open("CHANGES.txt").read()]),
       # Get more strings from
